@@ -10,7 +10,7 @@ Divide by 3, if it is divisible by 2
 // bottom-up
 function minOneBottomUp(n) {
 
-    let cache = [];
+    const cache = [];
     // base condition
     cache[1] = 0;
 
@@ -40,4 +40,4 @@ function minOneBottomUp(n) {
     return cache[n];
 }
 
-console.log(minOneBottomUp(10));
+console.log(minOneBottomUp(1000));
